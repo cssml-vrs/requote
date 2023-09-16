@@ -30,19 +30,22 @@ export const Menu = (props) => {
     >
       <CircleMenuItem
         tooltip="Home"
-        tooltipPlacement={TooltipPlacement.right}
+        //tooltipPlacement='top'
+        tooltipPlacement={TooltipPlacement.Right}
         link='/'
       >
         <HomeIcon />
       </CircleMenuItem>
       <CircleMenuItem 
         tooltip="Add/Edit Quotes"
+        tooltipPlacement={TooltipPlacement.Right}
         link='/AddEditQuotes'
       >
         <EditIcon />
       </CircleMenuItem>
       <CircleMenuItem 
         tooltip="Settings"
+        tooltipPlacement={TooltipPlacement.Right}
         link='/Settings'
       >
         <SettingsIcon />

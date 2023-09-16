@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import * as React from "react";
-import { createRoot } from "react-dom/client";
+import { FcAbout, FcBusinessman, FcCamera, FcFullTrash } from "react-icons/fc";
+
+import MusicFloat from "./components/MusicFloat";
+
 import {
   BrowserRouter,
   createBrowserRouter,
@@ -17,7 +19,9 @@ import AddEditQuotes from "./routes/AddEditQuotes"
 import Settings from "./routes/Settings"
 
 import Layout from './components/Layout';
-import { Menu } from './components/Menu';
+// import { Menu } from './components/Menu';
+// import { createRoot } from "react-dom/client";
+// import logo from './logo.svg';
 
 function App() {
   return (
