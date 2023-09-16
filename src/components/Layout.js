@@ -20,11 +20,15 @@ const Layout = () => {
   return (
     <React.Fragment>
     <div>
-      <Outlet />
+      <Header />
     </div>
     <div class="menu">
       <Menu />
     </div>
+    <div>
+      <Outlet />
+    </div>
+
     <div>
     <MusicFloat actions={actions} />
     </div>

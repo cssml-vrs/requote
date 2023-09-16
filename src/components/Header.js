@@ -5,14 +5,9 @@ const Header = () => {
     <nav>
       <ul className="nav-items">
         <li>
-          <Link to="/">HOME</Link>
+          <h1>ReQuote</h1>
         </li>
-        <li>
-          <Link to="page1">PAGE1</Link>
-        </li>
-        <li>
-          <Link to="page2">PAGE2</Link>
-        </li>
+
       </ul>
     </nav>
   );

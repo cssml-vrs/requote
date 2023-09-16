@@ -5,7 +5,7 @@
   padding: 0;
   flex-direction: column-reverse;
   position: fixed;
-  right: 2em;
+  left: 2em;
   bottom: 2em;
   max-height: 52px;
 
@@ -26,7 +26,8 @@
   }
 
   .fab-button {
-    background-color: #00a8ff;
+    background-color: rgba(71, 179, 233, 0.8);
+    opacity: 1;
 
     svg {
       fill: white;
