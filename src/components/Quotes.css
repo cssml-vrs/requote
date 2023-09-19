@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background: #00c3ffd7;
+  background: url("./seamless.avif") ;
 }
 
 #quote-box {

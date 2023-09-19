@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Quotes.css'
+import {QuoteTable} from './QuoteTable';
 
 const Quotes = () => {
   const [quote, setQuote] = useState('');
@@ -10,8 +11,10 @@ const Quotes = () => {
   }, []);
 
   const getQuote = () => {
+    
+    
     let url = `https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json`;
-    fetch(url)
+    fetch('react-quotes-app-data')
       .then(res => res.json())
       .then(data => {
         let dataQuotes = data.quotes;
