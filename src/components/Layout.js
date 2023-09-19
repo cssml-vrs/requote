@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import { Menu } from "./Menu";
 import React from "react";
 import './Menu.css'
-import { MusicMenu } from "./MusicMenu";
+//import { MusicMenu } from "./MusicMenu";
 import MusicFloat from "./MusicFloat";
 import { FcAbout, FcBusinessman, FcCamera, FcFullTrash } from "react-icons/fc";
 

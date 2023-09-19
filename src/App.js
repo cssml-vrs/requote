@@ -1,6 +1,7 @@
 import './App.css';
 import * as React from "react";
 import { FcAbout, FcBusinessman, FcCamera, FcFullTrash } from "react-icons/fc";
+import { useEffect } from 'react';
 
 import MusicFloat from "./components/MusicFloat";
 
@@ -24,6 +25,17 @@ import Layout from './components/Layout';
 // import logo from './logo.svg';
 
 function App() {
+
+  const userData = {
+    "id":1,"quote":"Life isn’t about getting and having, it’s about giving and being.","author":"Kevin Kruse", "date": "N/A"
+  }
+  localStorage.setItem("userData", JSON.stringify(userData));
+  
+  useEffect(() => {
+    const dataLS = localStorage.getItem("userData");
+    console.log("data Local Storage: ", JSON.parse(dataLS));
+    }, []);
+  
   return (
     <BrowserRouter>
       <Routes>
