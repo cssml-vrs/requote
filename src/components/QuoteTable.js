@@ -5,7 +5,7 @@ import {nanoid} from 'nanoid';
 import ReadOnlyRow from "./ReadOnlyRow";
 import EditableRow from "./EditableRow";
 import fs from 'fs';
-
+//on componentdidmount, grab what was from storage, if there is, then overwrite whatever was on there
 const QuoteTable = () => {
     
   const [quotes, setQuotes] = useState([
