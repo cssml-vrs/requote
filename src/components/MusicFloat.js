@@ -24,7 +24,7 @@ const MusicFloat = ({ actions }) => {
       </li>
       {actions.map((action, index) => (
         <li
-          style={{ transitionDelay: `${index * 25}ms` }}
+          style={{ transitionDelay: `${index * 30}ms` }}
           className={cn("fab-action", { open })}
           key={action.label}
           onClick={action.onClick}

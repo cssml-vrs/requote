@@ -9,7 +9,9 @@
   height: 120px;
 }
 
-
+ul {
+	left: 50px;
+}
 
 /* .menu-item {
 	position: absolute;
